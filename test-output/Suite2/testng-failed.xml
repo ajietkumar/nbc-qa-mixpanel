@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]">
+  <parameter name="browser" value="firefox"/>
+  <test name="VerifyTOCContentP(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.VerifyTOCContentP">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="startMethodReport"/>
+          <include name="afterTest"/>
+          <include name="testContentQAPOC"/>
+          <include name="teardown"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.VerifyTOCContentP -->
+    </classes>
+  </test> <!-- VerifyTOCContentP(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

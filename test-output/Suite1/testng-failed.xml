@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="browser" value="firefox"/>
+  <test name="VerifyTeacherStandardsF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.VerifyTeacherStandardsF">
+        <methods>
+          <include name="startMethodReport"/>
+          <include name="afterTest"/>
+          <include name="teardown"/>
+          <include name="testContentQAPOC"/>
+          <include name="startTestReport"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.VerifyTeacherStandardsF -->
+      <class name="com.mop.qa.test.bvt.ValidatePDFContent">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="startMethodReport"/>
+          <include name="afterTest"/>
+          <include name="teardown"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.ValidatePDFContent -->
+    </classes>
+  </test> <!-- VerifyTeacherStandardsF(failed) -->
+  <test name="ValidatePDFContent(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.VerifyTeacherStandardsF">
+        <methods>
+          <include name="startMethodReport"/>
+          <include name="afterTest"/>
+          <include name="teardown"/>
+          <include name="startTestReport"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.VerifyTeacherStandardsF -->
+      <class name="com.mop.qa.test.bvt.ValidatePDFContent">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="startMethodReport"/>
+          <include name="afterTest"/>
+          <include name="teardown"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+          <include name="testPDF"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.ValidatePDFContent -->
+    </classes>
+  </test> <!-- ValidatePDFContent(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

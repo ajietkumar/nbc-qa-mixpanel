@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite0]">
+  <parameter name="platFormName" value="Android"/>
+  <parameter name="testname" value="HBAnalyticCalls-Run1"/>
+  <parameter name="udid" value="1215fc6d280a0904"/>
+  <test name="HBAnalyticCalls-Run1(failed)">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="testname" value="HBAnalyticCalls-Run1"/>
+    <parameter name="udid" value="1215fc6d280a0904"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.HBAnalyticCalls">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="startMethodReport"/>
+          <include name="afterMethod"/>
+          <include name="teardown"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+          <include name="playVOD"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.HBAnalyticCalls -->
+    </classes>
+  </test> <!-- HBAnalyticCalls-Run1(failed) -->
+</suite> <!-- Failed suite [Suite0] -->
